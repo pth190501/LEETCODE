@@ -6,7 +6,7 @@ public:
         int n = nums.size();
         if(n <= 1) return nums[0];
         for(int i = 1; i < n; i++){
-            if(nums[i] != nums[x]){
+            if(nums[i] != nums[x]){         
                 count--;
                 if(count == 0){
                     x = i;
